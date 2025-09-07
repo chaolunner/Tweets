@@ -2,7 +2,7 @@
 一句话概之：披着推文工具外壳的全能AI扩展坞！
 
 <div align="center">
-  <video src="https://chaolunner.github.io/Tweets/videos/introduction.mp4" width="70%" controls> </video>
+  <video src="https://github.com/user-attachments/assets/3f23f980-c635-431a-8cbd-c18fe96dc317" width="70%" controls> </video>
 </div>
 
 ## 特色
