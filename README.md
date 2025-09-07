@@ -1,6 +1,8 @@
 # 介绍
 一句话概之：披着推文工具外壳的全能AI扩展坞！
 
+<video src="https://www.bilibili.com/video/BV1JoaPzkEKU/?vd_source=6a9df83748f96189f2b3eb3bb5f1a1bb" controls>您的浏览器不支持 video 标签，请更新浏览器。</video>
+
 ## 特色
 - 可视化界面编辑与工作流无缝衔接
   ![](images/image1.png "图1")
