@@ -1,9 +1,15 @@
-# 介绍
+# Tweets
 一句话概之：披着推文工具外壳的全能AI扩展坞！
+
+<p align="center">
+    <img src="images/logo5.png" width="400"/>
+<p>
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/3f23f980-c635-431a-8cbd-c18fe96dc317" width="70%" controls> </video>
 </div>
+
+---
 
 ## 特色
 - 可视化界面编辑与工作流无缝衔接
@@ -42,6 +48,11 @@
     - 将前面创建的SSH密钥路径粘贴到：设置 -> 仙宫云SSH -> 私钥路径
     - 使用 **工具** 上传模型和重启ComfyUI
       ![](images/image12.png "图12")
+11. 部署豆包语音识别 -> [创建应用](https://console.volcengine.com/speech/app) -> 开通[流式语音识别](https://console.volcengine.com/speech/service/16)和[流式语音识别大模型](https://console.volcengine.com/speech/service/10011) -> 复制 **Access Token** 和 **Cluster ID** -> 粘贴到：设置 -> 豆包语音
+
+### 启动工作流
+1. 点击 **workflow.exe** 启动
+
 ### 其他模块
 供应商|模块|创建密钥
 -|-|-
@@ -52,23 +63,26 @@ TTAPI|Midjourney|[TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)
 -|Midjourney Video|
 -|Luma|
 -|Suno|
+runway|runway|[API Keys](https://dev.runwayml.com)
 百度|翻译|[密钥](https://api.fanyi.baidu.com/api/trans/product/desktop)
 腾讯|翻译|[密钥](https://console.cloud.tencent.com/cam/capi)
 
 ## 功能
-支持|接入1|接入2|接入3|接入4|接入5|接入6
--|-|-|-|-|-|-
+支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9
+-|-|-|-|-|-|-|-|-|-
 大语言模型|豆包✅️|DeepSeek✅️|ChatGPT✅️|Gemini✅️
 ComfyUI|本地✅️|仙宫云✅|Liblib✅
-文生图|Flux.1✅️|Qwen-Image✅️|Midjourney✅️|豆包✅️
-图生图|Flux.1✅️|豆包✅️
-图片编辑|Flux Kontext✅️|Qwen-Image-Edit✅️
-图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|可灵❓未验证
-首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️
-参考生视频|Wan2.1✅️|Vidu✅️
-对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️
-动作模仿|Wan2.1✅️
-音效|MMAudio✅️
+文生图|Flux.1✅️|Qwen-Image✅️|Midjourney✅️|豆包Seedream4✅️|Gemini✅️|海螺✅️|Runway✅
+图生图|Flux.1✅️|豆包Seedream4✅️|Vidu✅️|Gemini✅️|海螺✅️|Runway✅
+图片编辑|Flux Kontext✅️|Qwen-Image-Edit✅️|豆包SeedEdit3.0✅️
+文生视频|豆包Seedance✅️|Luma✅️|Veo3✅️|海螺✅️
+图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|Veo3✅️|海螺✅️|Runway✅|可灵❓未验证
+首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|海螺✅️
+参考生视频|Wan2.1✅️|Vidu✅️|海螺✅️
+对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️|Vidu✅️
+动作模仿|Wan2.1✅️|Runway✅
+语音识别|豆包✅
 配音|海螺✅️|豆包✅️
+音效|MMAudio✅️
 音乐|Suno✅️|豆包✅️|ACE-Step✅️
 翻译|大语言模型✅️|百度✅️|腾讯✅️
