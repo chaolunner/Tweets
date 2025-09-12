@@ -2,9 +2,9 @@
     <img src="images/logo5.png" width="400"/>
 <p>
 
-<div style="display: flex; align-items: center; justify-content: center; border: 2px solid #6a1b9a; border-radius: 10px; padding: 1rem; background-color: #3e2753; color: #fce4ec; font-size: 1.1rem; font-weight: 500;">
-一句话概之：披着推文工具外壳的 <span style="background-color: #9c27b0; color: #fff; padding: 0.3rem 0.6rem; border-radius: 6px; font-weight: 600;">全域覆盖AI创作工具</span>！
-</div>
+<p align="center">
+    <img src="images/image13.png"/>
+<p>
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/3f23f980-c635-431a-8cbd-c18fe96dc317" width="70%" controls> </video>
@@ -13,13 +13,9 @@
 ---
 
 ## 核心优势
-<div style="display: flex; align-items: center; justify-content: center; border: 1px solid #444; border-radius: 8px; padding: 1rem; background-color: #2d2d2d; color: #e0e0e0;">
-<span>本地化：<span style="background-color: #4a2525; color: #ffcdd2; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 600;">私密</span></span>
-<span style="margin: 0 1.5rem; font-size: 2rem; opacity: 0.7;">·</span>
-<span>高聚合：<span style="background-color: #253a4a; color: #bbdefb; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 600;">全面</span></span>
-<span style="margin: 0 1.5rem; font-size: 2rem; opacity: 0.7;">·</span>
-<span>超便捷：<span style="background-color: #254a2d; color: #c8e6c9; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 600;">高效</span></span>
-</div>
+<p align="center">
+    <img src="images/image14.png"/>
+<p>
 
 ## 特色
 - 可视化界面编辑与工作流无缝衔接
