@@ -74,7 +74,7 @@ runway|runway|[API Keys](https://dev.runwayml.com)
 ## 功能
 支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9
 -|-|-|-|-|-|-|-|-|-
-大语言模型|豆包✅️|DeepSeek✅️|ChatGPT✅️|Gemini✅️
+大语言模型|豆包✅️|DeepSeek✅️|ChatGPT✅️|Gemini✅️|Kimi✅️
 ComfyUI|本地✅️|仙宫云✅|Liblib✅
 文生图|Flux.1✅️|Qwen-Image✅️|Midjourney✅️|豆包Seedream4✅️|Gemini✅️|海螺✅️|Runway✅
 图生图|Flux.1✅️|豆包Seedream4✅️|Vidu✅️|Gemini✅️|海螺✅️|Runway✅
@@ -82,11 +82,11 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 文生视频|豆包Seedance✅️|Luma✅️|Veo3✅️|海螺✅️
 图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|Veo3✅️|海螺✅️|Runway✅|可灵❓未验证
 首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|海螺✅️
-参考生视频|Wan2.1✅️|Vidu✅️|海螺✅️
+参考生视频|Wan2.1✅️|豆包Seedance✅️|Vidu✅️|海螺✅️
 对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️|Vidu✅️
 动作模仿|Wan2.1✅️|Runway✅
 语音识别|豆包✅
 配音|海螺✅️|豆包✅️
-音效|MMAudio✅️
-音乐|Suno✅️|豆包✅️|ACE-Step✅️
+音效|MMAudio✅️|Vidu✅️|Hunyuan-Foley✅️
+音乐|Suno✅️|豆包✅️|ACE-Step✅️|海螺✅️
 翻译|大语言模型✅️|百度✅️|腾讯✅️
