@@ -56,6 +56,7 @@
 
 ### 启动工作流
 1. 点击 **workflow.exe** 启动
+2. 浏览器输入 http://localhost:4200 访问
 
 ### 其他模块
 供应商|模块|创建密钥
@@ -70,6 +71,22 @@ TTAPI|Midjourney|[TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)
 runway|runway|[API Keys](https://dev.runwayml.com)
 百度|翻译|[密钥](https://api.fanyi.baidu.com/api/trans/product/desktop)
 腾讯|翻译|[密钥](https://console.cloud.tencent.com/cam/capi)
+
+### 本地部署 ComfyUI
+1. 百度云下载「ComfyUI基础包」链接: https://pan.baidu.com/s/1TzGj-NuPBD4h5uUwNQP7Dw?pwd=ib4k 提取码: ib4k
+2. 解压基础包，返回软件 -> 工具 -> ComfyUI -> 安装路径中填写解压后的路径
+3. 工具 -> ComfyUI -> 部署 -> 选择要使用的模块进行下载
+
+    ![](images/image15.png "图15")
+4. 等待下载完成后刷新ComfyUI页面
+
+### Nana Banana 玩法
+_注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apikey) 或者 [TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)_
+1. 提示词栏中「右键」菜单快速选择一种玩法
+2. 操作栏中 -> 点击「添加图片」 -> 在「历史图片」栏中点击该图片将该图片设置到「当前图片」栏
+3. 操作栏中 -> 点击「文生图片」右侧的下拉箭头 -> 选择「参考生图」
+    
+    ![](images/image16.png "图16")
 
 ## 功能
 支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9
@@ -90,3 +107,13 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 音效|MMAudio✅️|Vidu✅️|Hunyuan-Foley✅️
 音乐|Suno✅️|豆包✅️|ACE-Step✅️|海螺✅️
 翻译|大语言模型✅️|百度✅️|腾讯✅️
+
+## 更新日志
+
+- 20250921
+
+  更新 Nana Banana 图片编辑玩法
+
+## Stars 
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chaolunner/Tweets&type=Date)](https://www.star-history.com/#chaolunner/Tweets&Date)
