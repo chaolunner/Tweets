@@ -74,7 +74,7 @@ runway|runway|[API Keys](https://dev.runwayml.com)
 
 ### 本地部署 ComfyUI
 1. 百度云下载「ComfyUI基础包」链接: https://pan.baidu.com/s/1TzGj-NuPBD4h5uUwNQP7Dw?pwd=ib4k 提取码: ib4k
-2. 解压基础包，返回软件 -> 工具 -> ComfyUI -> 安装路径中填写解压后的路径
+2. 解压基础包，返回软件 -> 设置 -> ComfyUI(本地) -> 安装路径中填写解压后的路径
 3. 工具 -> ComfyUI -> 部署 -> 选择要使用的模块进行下载
 
     ![](images/image15.png "图15")
@@ -87,6 +87,13 @@ _注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apik
 3. 操作栏中 -> 点击「文生图片」右侧的下拉箭头 -> 选择「参考生图」
     
     ![](images/image16.png "图16")
+	
+### OpenPose 玩法
+1. 在「历史图片」栏中选中两张人物图，先选中的一张作为姿势参考图，后选中的一张作为角色形象参考图 -> 右键菜单 -> 图片编辑 -> 点击「真实人物姿势图 + 参考图」
+2. 操作栏中 -> 点击「添加图片」 上传一张OpenPose骨架图，在「历史图片」栏中先选中这张骨架图，再按住「Ctrl键」再选一张人物图作为角色形象参考图 -> 右键菜单 -> 图片编辑 -> 点击「OpenPose姿态骨架图 + 参考图」
+3. 在「历史图片」栏中选中一张人物图 -> 右键菜单 -> 图片编辑 -> 点击「预设 + 参考图」 -> 选择预设中的一个姿势
+
+    ![](images/image17.png "图17")
 
 ## 功能
 支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9
@@ -100,8 +107,8 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|Veo3✅️|海螺✅️|Runway✅|可灵❓未验证
 首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|海螺✅️
 参考生视频|Wan2.1✅️|豆包Seedance✅️|Vidu✅️|海螺✅️
-对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️|Vidu✅️
-动作模仿|Wan2.1✅️|Runway✅
+对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️|Vidu✅️|Wan2.2-S2V图片+声音✅️
+动作模仿|Wan2.1✅️|Runway✅|Wan2.2-Animate✅
 语音识别|豆包✅
 配音|海螺✅️|豆包✅️
 音效|MMAudio✅️|Vidu✅️|Hunyuan-Foley✅️
@@ -109,6 +116,12 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 翻译|大语言模型✅️|百度✅️|腾讯✅️
 
 ## 更新日志
+
+- 20250923
+
+  更新 OpenPose 图片编辑玩法
+  更新 Wan2.2-S2V 音频驱动视频生成工作流
+  更新 Wan2.2-Animate 动作模仿工作流
 
 - 20250921
 
