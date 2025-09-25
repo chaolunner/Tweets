@@ -35,7 +35,8 @@
 3. 部署豆包 / DeepSeek 大语言模型 -> 登录[火山引擎](https://www.volcengine.com/docs/82379/1494384) -> 创建[API Key](https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey) -> [开通模型](https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement) -> 创建[自定义推理接入点](https://console.volcengine.com/ark/region:ark+cn-beijing/endpoint)
 4. 复制 **API Key** 到：设置 -> 豆包大语言
    ![](images/image5.png "图5")
-5. 复制 **自定义推理接入点** 替换：模板 -> 用户数据
+5. ~~复制 **自定义推理接入点** 替换：模板 -> 用户数据~~
+
    ![](images/image6.png "图6")
 6. 部署海螺配音 -> 登录[MINIMAX平台](https://platform.minimaxi.com/user-center/basic-information/interface-key)创建新的密钥 -> 跳转[账户信息](https://platform.minimaxi.com/user-center/basic-information)获取groupID
 7. 复制 **groupID** 到：设置 -> 海螺 -> Group ID, 复制 **密钥** 到：设置 -> 海螺 -> api key
@@ -95,6 +96,22 @@ _注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apik
 
     ![](images/image17.png "图17")
 
+### 图片编辑——遮罩
+1. 在「扩展」栏点击「视频」页签切换至「编辑」 -> 输入编辑图片相关提示词
+    
+    ![](images/image18.png "图18")
+2. 在「历史图片」栏中选择一张要编辑的图片 -> 右键菜单 -> 图片编辑 -> 点击「SeedEdit-3.0 + 遮罩」 -> 绘制遮罩（要编辑的区域） -> 点击右下角的「确认」按钮
+    
+    <img src="images/image19.png" alt="图19" width="50%">
+
+### 图片编辑——草图
+1. 在「扩展」栏点击「视频」页签切换至「编辑」 -> 输入编辑图片相关提示词
+    
+    ![](images/image20.png "图20")
+2. 在「历史图片」栏中选择几张要融合的图片 -> 右键菜单 -> 图片编辑 -> 点击「Seedream-4.0 + 草图」 -> 绘制草图 -> 点击右下角的「确认」按钮
+
+    <img src="images/image21.png" alt="图21" width="50%">
+
 ## 功能
 支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9
 -|-|-|-|-|-|-|-|-|-
@@ -120,7 +137,9 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 - 20250923
 
   更新 OpenPose 图片编辑玩法
+  
   更新 Wan2.2-S2V 音频驱动视频生成工作流
+  
   更新 Wan2.2-Animate 动作模仿工作流
 
 - 20250921
