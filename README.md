@@ -59,6 +59,18 @@
 1. 点击 **workflow.exe** 启动
 2. 浏览器输入 http://localhost:4200 访问
 
+### 快速入门 —— 批量工作流（故事机）
+1. 跑通一个项目
+    ![](images/image25.png "图25")
+2. 保存项目成为模板
+    ![](images/image26.png "图26")
+3. 启动工作流
+    ![](images/image27.png "图27")
+4. 运行批量工作流
+    ![](images/image28.png "图28")
+
+    ![](images/image29.png "图29")
+
 ### 其他模块
 供应商|模块|创建密钥
 -|-|-
@@ -138,12 +150,12 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 文生图|Flux.1✅️|Qwen-Image✅️|Midjourney✅️|豆包Seedream4✅️|Gemini✅️|海螺✅️|Runway✅
 图生图|Flux.1✅️|豆包Seedream4✅️|Vidu✅️|Gemini✅️|海螺✅️|Runway✅
 图片编辑|Flux Kontext✅️|Qwen-Image-Edit✅️|豆包SeedEdit3.0✅️
-文生视频|豆包Seedance✅️|Luma✅️|Veo3✅️|海螺✅️
+文生视频|豆包Seedance✅️|Luma✅️|Veo3✅️|海螺✅️|Sora✅
 图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|Veo3✅️|海螺✅️|Runway✅|可灵❓未验证
 首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|海螺✅️
-参考生视频|Wan2.1✅️|豆包Seedance✅️|Vidu✅️|海螺✅️
+参考生视频|Wan2.1✅️|豆包Seedance✅️|Vidu✅️|海螺✅️|Sora✅️
 对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️|Vidu✅️|Wan2.2-S2V图片+声音✅️
-动作模仿|Wan2.1✅️|Runway✅|Wan2.2-Animate✅
+动作模仿|Wan2.1✅️|Runway✅|Wan2.2-Animate✅️
 语音识别|豆包✅
 配音|海螺✅️|豆包✅️
 音效|MMAudio✅️|Vidu✅️|Hunyuan-Foley✅️
@@ -151,6 +163,10 @@ ComfyUI|本地✅️|仙宫云✅|Liblib✅
 翻译|大语言模型✅️|百度✅️|腾讯✅️
 
 ## 更新日志
+
+- 20251116
+
+  更新 即梦、Hugging Face出图/视频，爆款视频拆解，固定场景，增强角色/场景一致性，IndexTTS2 配音，批量工作流
 
 - 20251014
 
