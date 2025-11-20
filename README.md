@@ -84,6 +84,7 @@ TTAPI|Midjourney|[TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)
 runway|runway|[API Keys](https://dev.runwayml.com)
 百度|翻译|[密钥](https://api.fanyi.baidu.com/api/trans/product/desktop)
 腾讯|翻译|[密钥](https://console.cloud.tencent.com/cam/capi)
+智谱|BigModel|[API keys](https://docs.bigmodel.cn)
 
 ### 本地部署 ComfyUI
 1. 百度云下载「ComfyUI基础包」链接: https://pan.baidu.com/s/1TzGj-NuPBD4h5uUwNQP7Dw?pwd=ib4k 提取码: ib4k
@@ -143,21 +144,21 @@ _注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apik
 ![](images/image24.png "图24")
 
 ## 功能
-支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9
--|-|-|-|-|-|-|-|-|-
-大语言模型|豆包✅️|DeepSeek✅️|ChatGPT✅️|Gemini✅️|Kimi✅️
+支持|接入1|接入2|接入3|接入4|接入5|接入6|接入7|接入8|接入9|接入10
+-|-|-|-|-|-|-|-|-|-|-
+大语言模型|豆包✅️|DeepSeek✅️|ChatGPT✅️|Gemini✅️|Kimi✅️|智谱✅
 ComfyUI|本地✅️|仙宫云✅|Liblib✅
-文生图|Flux.1✅️|Qwen-Image✅️|Midjourney✅️|豆包Seedream4✅️|Gemini✅️|海螺✅️|Runway✅
+文生图|Flux.1✅️|Qwen-Image✅️|Midjourney✅️|豆包Seedream4✅️|Gemini✅️|海螺✅️|Runway✅|智谱✅
 图生图|Flux.1✅️|豆包Seedream4✅️|Vidu✅️|Gemini✅️|海螺✅️|Runway✅
 图片编辑|Flux Kontext✅️|Qwen-Image-Edit✅️|豆包SeedEdit3.0✅️
-文生视频|豆包Seedance✅️|Luma✅️|Veo3✅️|海螺✅️|Sora✅
-图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|Veo3✅️|海螺✅️|Runway✅|可灵❓未验证
-首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|海螺✅️
+文生视频|豆包Seedance✅️|Luma✅️|Veo3✅️|海螺✅️|智谱✅|Sora🎯
+图生视频|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|Veo3✅️|海螺✅️|Runway✅|智谱✅|可灵❓
+首尾帧|Wan2.1 / Wan2.2✅️|豆包Seedance✅️|Midjourney Video✅️|Luma✅️|Vidu✅️|海螺✅️|智谱✅
 参考生视频|Wan2.1✅️|豆包Seedance✅️|Vidu✅️|海螺✅️|Sora✅️
 对口型|InfiniteTalk视频+声音✅️|Sonic图片+声音✅️|Vidu✅️|Wan2.2-S2V图片+声音✅️
 动作模仿|Wan2.1✅️|Runway✅|Wan2.2-Animate✅️
 语音识别|豆包✅
-配音|海螺✅️|豆包✅️
+配音|海螺✅️|豆包✅️|智谱✅|IndexTTS2✅
 音效|MMAudio✅️|Vidu✅️|Hunyuan-Foley✅️
 音乐|Suno✅️|豆包✅️|ACE-Step✅️|海螺✅️
 翻译|大语言模型✅️|百度✅️|腾讯✅️
