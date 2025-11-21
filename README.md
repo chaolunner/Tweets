@@ -94,6 +94,11 @@ runway|runway|[API Keys](https://dev.runwayml.com)
     ![](images/image15.png "图15")
 4. 等待下载完成后刷新ComfyUI页面
 
+### Sora2
+1. 浏览器访问：https://chatgpt.com/api/auth/session 获取accessToken
+2. 打开软件 -> 设置 -> Sora -> 添加账号
+3. 视频模型选择 -> Sora2
+
 ### Nana Banana 玩法
 _注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apikey) 或者 [TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)_
 1. 提示词栏中「右键」菜单快速选择一种玩法
