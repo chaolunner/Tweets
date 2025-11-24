@@ -99,6 +99,11 @@ runway|runway|[API Keys](https://dev.runwayml.com)
 2. 打开软件 -> 设置 -> Sora -> 添加账号
 3. 视频模型选择 -> Sora2
 
+### Sora 去水印
+1. 下载并解压：**tweets-extension.zip**
+2. 将 tweets-extension 放到与 Tweets-Windows-x64 同级目录
+3. 点击 install.bat 安装
+
 ### Nana Banana 玩法
 _注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apikey) 或者 [TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)_
 1. 提示词栏中「右键」菜单快速选择一种玩法
