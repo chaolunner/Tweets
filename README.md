@@ -100,9 +100,14 @@ runway|runway|[API Keys](https://dev.runwayml.com)
 3. 视频模型选择 -> Sora2
 
 ### Sora 去水印
-1. 下载并解压：**tweets-extension.zip**
-2. 将 tweets-extension 放到与 Tweets-Windows-x64 同级目录
-3. 点击 install.bat 安装
+1. 下载并解压：**[SoraWatermarkCleaner.zip](https://github.com/linkedlist771/SoraWatermarkCleaner?tab=readme-ov-file#3-one-click-portable-version)**
+2. 将 SoraWatermarkCleaner 放到与 Tweets-Windows-x64 同级目录
+3. 点击 run.bat 运行
+
+### [Video2X](https://docs.video2x.org/index.html) 超清放大
+1. 浏览器访问：https://github.com/k4yt3x/video2x/releases/latest 下载 video2x-windows-amd64.zip
+2. 在 Tweets-Windows-x64 同级目录创建 video2x 文件夹并将上一步下载的压缩包的内容解压到这个文件夹
+3. 打开软件将要超清放大的视频设置成「当前图片」后，在「操作」栏 -> 「生成视频」按钮右侧的下拉菜单中选择「超清放大」
 
 ### Nana Banana 玩法
 _注意：需要先配置谷歌[API 密钥](https://aistudio.google.com/app/apikey) 或者 [TTAPI KEY](https://dashboard.ttapi.io/dashboard/overview)_
