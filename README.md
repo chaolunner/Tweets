@@ -18,6 +18,12 @@
 <p>
 
 ## 特色
+
+- 支持API调用和Agent模式
+	<div align="center">
+	  <video src="https://github.com/user-attachments/assets/a6e4414e-d5bc-42d4-b6c7-409f5c46e20d" width="70%" controls> </video>
+	</div>
+
 - 可视化界面编辑与工作流无缝衔接
   ![](images/image2.png "图2")
 - 一个软件搞定短视频，内置聊天界面，再也不用为了剪辑短视频来回切换各种网页或软件
