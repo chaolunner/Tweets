@@ -6,9 +6,9 @@
     <img src="images/image13.png"/>
 <p>
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/3f23f980-c635-431a-8cbd-c18fe96dc317" width="70%" controls> </video>
-</div>
+<p align="center">
+    <img src="images/image1.png"/>
+<p>
 
 ---
 
@@ -19,15 +19,12 @@
 
 ## 特色
 
-- 支持API调用和Agent模式
+- 支持API调用和Agent模式，再也不用为了剪辑短视频来回切换各种网页或软件
 	<div align="center">
 	  <video src="https://github.com/user-attachments/assets/a6e4414e-d5bc-42d4-b6c7-409f5c46e20d" width="70%" controls> </video>
 	</div>
-
 - 可视化界面编辑与工作流无缝衔接
   ![](images/image2.png "图2")
-- 一个软件搞定短视频，内置聊天界面，再也不用为了剪辑短视频来回切换各种网页或软件
-  ![](images/image3.png "图3")
 - 全流程打通，操作便捷（从文案->口播/字幕->画面->视频->对口型->音效->背景音乐）
 - 支持一键导出剪映草稿
 - 高度模块化、支持自由定制（提示词模板、角色模板、剪映模板）
