@@ -19,7 +19,7 @@
 
 ## 特色
 
-- 支持API调用和Agent模式，再也不用为了剪辑短视频来回切换各种网页或软件
+- 支持MCP服务、API调用和Agent模式，再也不用为了剪辑短视频来回切换各种网页或软件
 	<div align="center">
 	  <video src="https://github.com/user-attachments/assets/480020ca-29d3-43e4-9d4b-1d54746aecca" width="70%" controls> </video>
 	</div>
@@ -61,6 +61,22 @@
 ### 启动工作流
 1. 点击 **workflow.exe** 启动
 2. 浏览器输入 http://localhost:4200 访问
+
+### MCP 使用指南
+在 mcp.json 文件中添加以下配置：
+```json
+{
+  "mcpServers": {
+    "tweets-server": {
+      "command": "Tweets-Windows-x64/mcp.exe",
+      "args": [],
+      "env": {},
+      "url": null,
+      "headers": null
+    }
+  }
+}
+```
 
 ### 快速入门 —— 批量工作流（故事机）
 1. 跑通一个项目
